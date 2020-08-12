@@ -9,7 +9,6 @@ import { toBase64String } from '@angular/compiler/src/output/source_map';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  file:any=[];
   returnpath:string="";
   constructor(public filePath:FilePath,public fileChooser:FileChooser) {
 
