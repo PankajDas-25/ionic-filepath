@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title id="ttl_bg">
+      File Upload
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">File Upload</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+   <ion-button size="default" color="primary" expand="block" (click)="PickFile()">Chhose FIle</ion-button>
+    <div>
+    {{returnpath}}
+    </div>
+
+
+
+
+  </div>
+</ion-content>
